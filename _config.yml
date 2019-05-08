@@ -1,0 +1,14 @@
+title: Verda Spirito
+email: dragos@iorgos.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Cicloturism, etc. teste.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  diorgulescu
+
+# Build settings
+plugins_dir:
+  - jekyll-feed
+include: ['_pages']
+github: [metadata]
+theme: minimal
