@@ -11,4 +11,4 @@ plugins_dir:
   - jekyll-feed
 include: ['_pages']
 github: [metadata]
-theme: minimal
+theme: jekyll-theme-cayman
