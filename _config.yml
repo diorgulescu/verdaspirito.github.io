@@ -9,6 +9,5 @@ github_username:  diorgulescu
 # Build settings
 plugins_dir:
   - jekyll-feed
-include: ['_pages', '_posts']
+    #include: ['_pages', '_posts']
 github: [metadata]
-theme: jekyll-theme-dinky
