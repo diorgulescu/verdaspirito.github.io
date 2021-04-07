@@ -1,29 +1,15 @@
 ---
 layout: page
-title: Drumeții
-date: 2018-02-07 14:20:24.000000000 +02:00
+title: Blog
+date: 2011-02-04 14:20:24.000000000 +02:00
 type: page
 parent_id: '0'
 published: true
-password: ''
 status: publish
-categories: []
-tags: []
-meta:
-  _edit_last: '1'
-  _wp_page_template: default
-  xyz_fbap: '1'
-  xyz_twap: '1'
-author:
-  login: diorgulescu
-  email: diorgulescu@linuxmail.org
-  display_name: Dragos Iorgulescu
-  first_name: Dragoș
-  last_name: Iorgulescu
-permalink: "/drumetii/"
+permalink: "/blog/"
 ---
 <p>
-{% for post in site.categories.drumetii %}
+{% for post in site.categories.Blog %}
   {% unless post.draft %}
     {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}

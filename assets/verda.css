@@ -1,3 +1,30 @@
-body{text-align:justify;margin-left:10%;width:80%;font-family: "Helvetica", Arial, monospace;font-size:14px;}
+body{text-align:justify;margin-left:10%;width:80%;font-family: Arial, monospace;font-size:14px;}
 img {width: 100%;height: auto;}
 .menu{text-align:center;font-family: "Verdana";font-size:16px;}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00CC7A;
+  position: sticky;
+  text-align: center;
+}
+
+li.nav {
+  float: left;
+}
+
+li a.nav {
+  display: block;
+  color: black;
+  font-size:16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #f3f3f3;
+}
